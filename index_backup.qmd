@@ -4,9 +4,9 @@ author: "Gaurang Kakade"
 title-block-banner: true
 title-block-style: default
 toc: true
-# format: html
+format: html
 prefer-html: true
-format: pdf
+# format: pdf
 ---
 
 ------------------------------------------------------------------------
@@ -106,12 +106,12 @@ $$
 What's the expected value for $x_0 + 1$?
 
 $$
-\begin{aligned}
+\begin{align}
 y(x_0 + 1) &= \beta_0 + \beta_1 \times (x_0 + 1)\\ \\
 &= \beta_0 + \beta_1 x_0 + \beta_1\\ \\
 &= y(x_0) + \beta_1\\ \\
 \implies \beta_1 &= y(x_0 + 1) - y(x_0)
-\end{aligned}
+\end{align}
 $$
 
 <br><br><br><br><br><br><br>
